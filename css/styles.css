@@ -5,9 +5,28 @@ html {
 /* VARIABLES */
 
 :root {
-  --dark-green: #41a650;
+  --light-green: #41a650;
+  --dark-green: #25592c;
   --dark-teal: #4197a6;
   --dark-grey: #4f4f4f;
+}
+
+/* CONTENT CONTAINER */
+
+.content-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* FLEX REUSABLES */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 /* MAIN ELEMENTS */
@@ -32,6 +51,7 @@ main {
   width: 100vw;
   height: fit-content;
   flex-grow: 1;
+  flex-direction: column;
 }
 
 footer {
@@ -44,4 +64,163 @@ footer {
   background-color: var(--dark-grey);
 }
 
+.icon-navigation-wrapper {
+  display: flex;
+  border: 1px solid var(--dark-grey);
+  margin: 2rem;
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+
+.icon-navigation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-container {
+  align-items: center;
+  text-align: center;
+}
+
+.opening-hours {
+  display: none;
+}
+
+.quick-nav-bar {
+  display: flex;
+  background-color: var(--light-green);
+  color: #fff;
+  gap: 3rem;
+  justify-content: center;
+  border: 1px solid var(--dark-green);
+}
+
+.explore-together-wrapper {
+  margin: 0 2rem 0 2rem;
+  padding-bottom: 1rem;
+}
+
+/* NAVIGATION */
+
+.hanburger-label {
+  float: right;
+  color: var(--light-green);
+  font-size: 2rem;
+  display: block;
+}
+
 /* TEXT */
+
+.header-text {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.explore-together-heading > h2 {
+  margin-left: 1rem;
+}
+
+footer * a,
+footer * h3,
+footer * p {
+  color: #fff;
+}
+
+.icon-navigation-container > a {
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.header-position-large {
+  display: none;
+}
+
+/* ICONS */
+
+.material-icons {
+  position: relative;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+.material-icons.md-48 {
+  font-size: 3rem;
+}
+
+.material-icons.md-36 {
+  font-size: 2.25rem;
+}
+
+.material-icons.md-24 {
+  font-size: 1.5rem;
+}
+
+.material-icons.md-18 {
+  font-size: 1.12rem;
+}
+
+/* IMAGES */
+
+.header-image {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../images/billetto-editorial-334686.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.header-logo {
+  width: 100%;
+}
+
+.nav-icon-small {
+  width: 44px;
+}
+
+.explore-together-heading {
+  display: flex;
+  background: url("../images/scientific-2040795_1280.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  align-items: flex-end;
+  color: #fff;
+}
+
+/* HIDDEN TEXT FOR ACCESSIBILITY */
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+@media only screen and (min-width: 800px) {
+  .opening-hours {
+    display: block;
+  }
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1280px) {
+}
