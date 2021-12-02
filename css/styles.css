@@ -108,6 +108,10 @@ footer {
 
 /* NAVIGATION */
 
+.hamburger-wrapper {
+  margin-top: 2rem;
+}
+
 #hamburger-menu,
 .hamburger-label span {
   display: none;
@@ -115,7 +119,7 @@ footer {
 
 .hamburger-label {
   color: var(--light-green);
-  font-size: 2rem;
+  font-size: 3rem;
   display: block;
   transition: width 0.3s ease-in-out;
 }
@@ -151,13 +155,8 @@ footer {
 }
 
 #hamburger-menu:checked + .hamburger-label {
-  width: 250px;
-  padding: 0 20px;
-}
-
-#hamburger-menu:checked + .hamburger-label span {
   display: inline;
-  padding-right: 0.5rem;
+  width: 250px;
 }
 
 .active {
