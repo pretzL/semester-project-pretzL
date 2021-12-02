@@ -95,9 +95,12 @@ footer {
   display: flex;
   background-color: var(--light-green);
   color: #fff;
-  gap: 3rem;
+  gap: 5rem;
   justify-content: center;
+  align-items: center;
   border: var(--border) var(--dark-green);
+  width: 100%;
+  height: 5vh;
 }
 
 .explore-together-wrapper {
@@ -107,6 +110,48 @@ footer {
 
 .header1 {
   gap: 10rem;
+}
+
+/* TEXT */
+
+.header-text {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.explore-together-heading > h2 {
+  margin-left: 1rem;
+}
+
+footer * a,
+footer * h3,
+footer * p {
+  color: #fff;
+}
+
+.icon-navigation-container > a {
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.header-position-large {
+  display: none;
+}
+
+.header-position-small {
+  text-align: center;
+}
+
+.header-position-small h1 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 /* NAVIGATION */
@@ -167,46 +212,52 @@ footer {
   border: var(--border) black;
 }
 
-/* TEXT */
+/* OVERLAYS */
 
-.header-text {
-  color: #fff;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.explore-together-heading > h2 {
-  margin-left: 1rem;
-}
-
-footer * a,
-footer * h3,
-footer * p {
-  color: #fff;
-}
-
-.icon-navigation-container > a {
-  color: #000;
-  font-size: 0.8rem;
-}
-
-.header-position-large {
+#hours-dropdown,
+#visit-dropdown,
+.hours-overlay,
+.visit-overlay {
   display: none;
 }
 
-.header-position-small {
-  text-align: center;
+.hours-overlay,
+.visit-overlay {
+  position: absolute;
+  background: white;
+  color: black;
+  border: var(--border) black;
+  padding: 0 1rem 2rem 1rem;
+  top: 37%;
+  left: 5%;
 }
 
-.header-position-small h1 {
-  font-size: 1.5rem;
-  margin-bottom: 3rem;
+.visit-overlay img {
+  width: 100%;
+}
+
+#hours-dropdown:checked ~ .hours-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+
+#visit-dropdown:checked ~ .visit-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+
+.info-button {
+  background: var(--dark-teal);
+  border: var(--border) black;
+  padding: 0.5rem 2rem;
+}
+
+.info-button a {
+  color: #000;
 }
 
 /* ICONS */
