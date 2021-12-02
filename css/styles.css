@@ -50,7 +50,7 @@ header {
 
 main {
   display: flex;
-  color: #000;
+  color: black;
   width: 100vw;
   height: fit-content;
   flex-grow: 1;
@@ -63,7 +63,7 @@ footer {
   display: flex;
   justify-content: space-around;
   gap: 3rem;
-  color: #000;
+  color: black;
   background-color: var(--dark-grey);
 }
 
@@ -137,7 +137,7 @@ footer * p {
 }
 
 .icon-navigation-container > a {
-  color: #000;
+  color: black;
   font-size: 0.8rem;
 }
 
@@ -160,8 +160,7 @@ footer * p {
   margin-top: 2rem;
 }
 
-#hamburger-menu,
-.hamburger-label span {
+#hamburger-menu {
   display: none;
 }
 
@@ -174,7 +173,7 @@ footer * p {
 
 .nav-overlay {
   background-color: #fff;
-  color: #000;
+  color: black;
   position: fixed;
   width: 50vw;
   height: 50vh;
@@ -194,7 +193,7 @@ footer * p {
   position: relative;
   text-decoration: none;
   display: block;
-  color: #000;
+  color: black;
   padding: 1rem 1.2rem;
 }
 
@@ -257,7 +256,7 @@ footer * p {
 }
 
 .info-button a {
-  color: #000;
+  color: black;
 }
 
 /* ICONS */
