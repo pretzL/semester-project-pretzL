@@ -279,6 +279,27 @@ footer * p {
   text-align: center;
 }
 
+/* FORMS */
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.create-account-form-extra-large {
+  width: 50vw;
+  height: 10vh;
+}
+
+.create-account-form-large {
+  border-radius: 5px;
+  width: 50vw;
+  height: 3vh;
+}
+
 /* OVERLAYS */
 
 #hours-dropdown,
@@ -321,10 +342,15 @@ footer * p {
   background: var(--dark-teal);
   border: var(--border) black;
   padding: 0.5rem 2rem;
+  text-decoration: none;
 }
 
 .info-button a {
   color: black;
+}
+
+.info-button a:hover {
+  text-decoration: underline;
 }
 
 /* ICONS */
