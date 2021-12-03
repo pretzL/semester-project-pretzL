@@ -166,6 +166,7 @@ footer * p {
   display: flex;
   gap: 1rem;
   align-items: center;
+  margin-left: 1.8rem;
 }
 
 .content-card-container h2 {
