@@ -180,6 +180,15 @@ footer * p {
   margin-top: 0;
 }
 
+.inline-anchor {
+  text-decoration: underline;
+  color: black;
+}
+
+.inline-anchor:hover {
+  font-weight: bold;
+}
+
 /* NAVIGATION */
 
 .hamburger-wrapper {
@@ -235,6 +244,31 @@ footer * p {
 .active {
   background-color: var(--light-green);
   border: var(--border) black;
+}
+
+.heading-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.heading-nav ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.heading-nav ul a {
+  padding: 0.2rem 0.6rem;
+  border: var(--border) black;
+  background-color: var(--dark-teal);
+  color: black;
+}
+
+.heading-nav ul a:hover {
+  text-decoration: underline;
 }
 
 /* OVERLAYS */
