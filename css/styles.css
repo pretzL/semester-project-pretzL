@@ -258,6 +258,7 @@ footer * p {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  text-align: center;
 }
 
 .heading-nav ul a {
@@ -269,6 +270,13 @@ footer * p {
 
 .heading-nav ul a:hover {
   text-decoration: underline;
+}
+
+.get-involved-heading-nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  text-align: center;
 }
 
 /* OVERLAYS */
