@@ -191,6 +191,10 @@ footer * p {
 
 /* NAVIGATION */
 
+.desktop-nav {
+  display: none;
+}
+
 .hamburger-wrapper {
   margin-top: 2rem;
 }
@@ -385,7 +389,7 @@ footer * p {
   background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../images/billetto-editorial-334686.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vw;
 }
 
 .header-logo {
@@ -415,6 +419,10 @@ footer * p {
   width: 315px;
 }
 
+.explore-together-image {
+  display: none;
+}
+
 /* HIDDEN TEXT FOR ACCESSIBILITY */
 
 .visually-hidden {
@@ -433,11 +441,118 @@ footer * p {
 
 @media only screen and (min-width: 800px) {
   .opening-hours {
-    display: block;
+    display: flex;
+  }
+
+  .hamburger-label,
+  .nav-overlay {
+    display: none;
   }
 }
 
 /* DESKTOP */
 
 @media only screen and (min-width: 1280px) {
+  .header-position-large {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-position-large p,
+  .header-position-large h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header1 {
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .header-position-small {
+    display: none;
+  }
+
+  .hamburger-label,
+  .nav-overlay {
+    display: none;
+  }
+
+  .header-image {
+    height: 50vh;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .desktop-nav {
+    margin-left: 15rem;
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 1rem;
+  }
+
+  .desktop-nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 0.6rem 1rem;
+    background-color: var(--light-green);
+    border: var(--border) black;
+  }
+
+  .desktop-nav ul a:hover {
+    background-color: white;
+    color: var(--light-green);
+  }
+
+  .quick-nav-bar {
+    font-size: 1.8rem;
+    height: 8vh;
+    gap: 30vw;
+  }
+
+  .icon-navigation-container > a {
+    font-size: 1.5rem;
+  }
+
+  .nav-icon-small {
+    width: 100px;
+  }
+
+  .icon-navigation-wrapper {
+    width: 80vw;
+    align-self: center;
+    justify-content: center;
+    gap: 15rem;
+  }
+
+  .explore-together-heading {
+    background: none;
+    color: black;
+  }
+
+  .explore-together-wrapper {
+    display: flex;
+    width: 80vw;
+    align-self: center;
+  }
+
+  .explore-together-heading {
+    height: 100%;
+  }
+
+  .explore-together-heading > h2 {
+    margin-left: 0;
+  }
+
+  .explore-together-image {
+    display: block;
+    width: 30vw;
+  }
 }
