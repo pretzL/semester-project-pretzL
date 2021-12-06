@@ -487,7 +487,8 @@ footer * p {
   }
 
   .desktop-nav {
-    margin-left: 15rem;
+    display: flex;
+    margin-left: 0;
   }
 
   .desktop-nav ul {
