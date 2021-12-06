@@ -70,7 +70,7 @@ footer {
 .icon-navigation-wrapper {
   display: flex;
   border: var(--border) var(--dark-grey);
-  margin: 2rem;
+  margin: 4rem 2rem 2rem 2rem;
   justify-content: space-between;
   padding: 0.2rem;
 }
@@ -93,6 +93,7 @@ footer {
 
 .quick-nav-bar {
   display: flex;
+  position: absolute;
   background-color: var(--light-green);
   color: #fff;
   gap: 5rem;
@@ -186,6 +187,10 @@ footer * p {
 }
 
 .inline-anchor:hover {
+  font-weight: bold;
+}
+
+.explore-together-sub-heading {
   font-weight: bold;
 }
 
@@ -320,7 +325,7 @@ footer * p {
   color: black;
   border: var(--border) black;
   padding: 0 1rem 2rem 1rem;
-  top: 37%;
+  top: 100%;
   left: 5%;
 }
 
@@ -328,13 +333,7 @@ footer * p {
   width: 100%;
 }
 
-#hours-dropdown:checked ~ .hours-overlay {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80vw;
-}
-
+#hours-dropdown:checked ~ .hours-overlay,
 #visit-dropdown:checked ~ .visit-overlay {
   display: flex;
   flex-direction: column;
@@ -479,7 +478,7 @@ footer * p {
   }
 
   .header-image {
-    height: 50vh;
+    height: 60vh;
   }
 
   .fa-bars {
@@ -531,6 +530,12 @@ footer * p {
     align-self: center;
     justify-content: center;
     gap: 15rem;
+    margin-top: 6rem;
+  }
+
+  .explore-together-content {
+    display: flex;
+    flex-direction: column;
   }
 
   .explore-together-heading {
@@ -555,5 +560,28 @@ footer * p {
   .explore-together-image {
     display: block;
     width: 30vw;
+    margin-top: 3.5rem;
+  }
+
+  .explore-together-text-content {
+    margin-right: 3rem;
+  }
+
+  #hours-dropdown:checked ~ .hours-overlay,
+  #visit-dropdown:checked ~ .visit-overlay {
+    width: 30vw;
+  }
+
+  .visit-overlay {
+    left: 55%;
+  }
+
+  .hours-overlay {
+    left: 15%;
+  }
+
+  .visit-overlay,
+  .hours-overlay {
+    font-size: 1rem;
   }
 }
