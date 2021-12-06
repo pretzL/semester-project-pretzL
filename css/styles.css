@@ -218,7 +218,7 @@ footer * p {
   height: 50vh;
   z-index: 1111;
   transition: transform 0.3s ease-in-out;
-  transform: translateX(-55%);
+  transform: translateX(100%);
   border: var(--border) black;
 }
 
@@ -237,7 +237,7 @@ footer * p {
 }
 
 #hamburger-menu:checked ~ .nav-overlay {
-  transform: translateX(100%);
+  transform: translateX(-55%);
 }
 
 #hamburger-menu:checked + .hamburger-label {
