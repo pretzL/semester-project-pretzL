@@ -220,7 +220,7 @@ footer * p {
   color: black;
   position: fixed;
   width: 50vw;
-  height: 50vh;
+  height: 60vh;
   z-index: 1111;
   transition: transform 0.3s ease-in-out;
   transform: translateX(100%);
@@ -415,7 +415,7 @@ footer * p {
 }
 
 .exhibition-content-image {
-  width: 315px;
+  width: 84vw;
 }
 
 .explore-together-image {
