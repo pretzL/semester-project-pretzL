@@ -443,6 +443,12 @@ footer * p {
     display: flex;
   }
 
+  .hours-label:hover,
+  .visit-label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
   .hamburger-label,
   .nav-overlay {
     display: none;
@@ -546,6 +552,10 @@ footer * p {
     gap: 30vw;
   }
 
+  .icon-navigation-container {
+    width: 50vw;
+  }
+
   .icon-navigation-container > a {
     font-size: 1.5rem;
   }
@@ -558,7 +568,7 @@ footer * p {
     width: 80vw;
     align-self: center;
     justify-content: center;
-    gap: 15rem;
+    gap: 10rem;
     margin-top: 6rem;
   }
 
