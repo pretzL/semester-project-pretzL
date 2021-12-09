@@ -120,6 +120,11 @@ footer {
   margin: 1.8rem 1.8rem 0.9rem 1.8rem;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 /* TEXT */
 
 .header-text {
@@ -601,5 +606,85 @@ footer * p {
   .visit-overlay,
   .hours-overlay {
     font-size: 1rem;
+  }
+
+  .exhibition-content {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid1 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .grid2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .grid3 {
+    grid-column: 1;
+    grid-row: 2 / span 1;
+  }
+
+  .grid4 {
+    grid-column: 2;
+    grid-row: 2 / 3;
+  }
+
+  .grid5 {
+    grid-column: 3;
+    grid-row: 2 / span 1;
+  }
+
+  .exhibition-content-image {
+    width: 20vw;
+  }
+
+  .content-card-container {
+    margin: 1.8rem 1.8rem 0.9rem 1.8rem;
+  }
+
+  .cosmology-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .page-icon-medium {
+    width: 100px;
+  }
+
+  .explore-content,
+  .get-involved-content {
+    display: flex;
+  }
+
+  .visit-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .get-involved-content {
+    flex-direction: column;
+  }
+
+  .contact-us-container {
+    width: 30vw;
+    margin: 0 auto;
+  }
+
+  .heading-nav {
+    display: none;
+  }
+
+  .create-account-form-extra-large {
+    width: 20vw;
+  }
+
+  .create-account-form-large {
+    width: 20vw;
   }
 }
