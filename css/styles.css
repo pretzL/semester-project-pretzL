@@ -17,7 +17,7 @@ html {
 /* CONTENT CONTAINER */
 
 .content-container {
-  max-width: 1920px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -45,20 +45,20 @@ body {
 header {
   margin: 0;
   padding-top: 1rem;
-  width: 100vw;
+  width: 100%;
 }
 
 main {
   display: flex;
   color: black;
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   flex-grow: 1;
   flex-direction: column;
 }
 
 footer {
-  width: 100vw;
+  width: 100%;
   padding-bottom: 2rem;
   display: flex;
   justify-content: space-around;
@@ -100,7 +100,7 @@ footer {
   justify-content: center;
   align-items: center;
   border: var(--border) var(--dark-green);
-  width: 100vw;
+  width: 100%;
   height: 50px;
 }
 
@@ -224,8 +224,8 @@ footer * p {
   background-color: #fff;
   color: black;
   position: fixed;
-  width: 50vw;
-  height: 60vh;
+  width: 50%;
+  height: 60%;
   z-index: 1111;
   transition: transform 0.3s ease-in-out;
   transform: translateX(100%);
@@ -304,14 +304,14 @@ footer * p {
 }
 
 .create-account-form-extra-large {
-  width: 50vw;
-  height: 10vh;
+  width: 50%;
+  height: 40%;
 }
 
 .create-account-form-large {
   border-radius: 5px;
-  width: 50vw;
-  height: 3vh;
+  width: 50%;
+  height: 10%;
 }
 
 /* OVERLAYS */
@@ -343,7 +343,7 @@ footer * p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80vw;
+  width: 80%;
 }
 
 .info-button {
@@ -393,7 +393,7 @@ footer * p {
   background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../images/billetto-editorial-334686.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
 }
 
 .header-logo {
@@ -410,7 +410,7 @@ footer * p {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 30%;
   align-items: flex-end;
   color: #fff;
 }
@@ -420,7 +420,7 @@ footer * p {
 }
 
 .exhibition-content-image {
-  width: 84vw;
+  width: 84%;
 }
 
 .explore-together-image {
@@ -460,7 +460,7 @@ footer * p {
   }
 
   .header-image {
-    height: 30vh;
+    height: 500px;
   }
 
   .fa-bars {
@@ -497,7 +497,7 @@ footer * p {
   }
 
   .header-image {
-    height: 60vh;
+    height: 500px;
   }
 
   .fa-bars {
@@ -533,11 +533,11 @@ footer * p {
   .quick-nav-bar {
     font-size: 1.8rem;
     height: 70px;
-    gap: 30vw;
+    gap: 30rem;
   }
 
   .icon-navigation-container {
-    width: 50vw;
+    width: 50%;
   }
 
   .icon-navigation-container > a {
@@ -549,11 +549,11 @@ footer * p {
   }
 
   .icon-navigation-wrapper {
-    width: 80vw;
+    width: 80%;
     align-self: center;
     justify-content: center;
     gap: 10rem;
-    margin-top: 5vw;
+    margin-top: 5rem;
   }
 
   .explore-together-content {
@@ -568,7 +568,7 @@ footer * p {
 
   .explore-together-wrapper {
     display: flex;
-    width: 80vw;
+    width: 80%;
     align-self: center;
   }
 
@@ -582,7 +582,7 @@ footer * p {
 
   .explore-together-image {
     display: block;
-    width: 30vw;
+    width: 100%;
     margin-top: 3.5rem;
   }
 
@@ -592,7 +592,7 @@ footer * p {
 
   #hours-dropdown:checked ~ .hours-overlay,
   #visit-dropdown:checked ~ .visit-overlay {
-    width: 30vw;
+    width: 30%;
   }
 
   .visit-overlay {
@@ -640,7 +640,7 @@ footer * p {
   }
 
   .exhibition-content-image {
-    width: 20vw;
+    width: 100%;
   }
 
   .content-card-container {
@@ -672,7 +672,7 @@ footer * p {
   }
 
   .contact-us-container {
-    width: 30vw;
+    width: 30%;
     margin: 0 auto;
   }
 
@@ -680,11 +680,8 @@ footer * p {
     display: none;
   }
 
-  .create-account-form-extra-large {
-    width: 20vw;
-  }
-
+  .create-account-form-extra-large,
   .create-account-form-large {
-    width: 20vw;
+    width: 60%;
   }
 }
