@@ -508,7 +508,8 @@ footer * p {
 
   .desktop-nav {
     display: flex;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: 20px;
   }
 
   .desktop-nav ul {
@@ -657,7 +658,11 @@ footer * p {
     width: 100px;
   }
 
-  .explore-content,
+  .explore-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .get-involved-content {
     display: flex;
   }
