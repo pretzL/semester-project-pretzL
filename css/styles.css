@@ -108,10 +108,6 @@ footer {
   padding-bottom: 1rem;
 }
 
-.header1 {
-  gap: 10rem;
-}
-
 .content-card-container {
   display: flex;
   flex-direction: column;
@@ -203,6 +199,10 @@ footer * p {
   padding: 0.5rem;
 }
 
+.opening-hours-text {
+  align-items: center;
+}
+
 /* NAVIGATION */
 
 .desktop-nav {
@@ -211,6 +211,8 @@ footer * p {
 
 .hamburger-wrapper {
   margin-top: 2rem;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 #hamburger-menu {
@@ -395,6 +397,15 @@ footer * p {
   color: white;
   font-size: 2rem;
   gap: 2rem;
+}
+
+.dot {
+  display: flex;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  border: var(--border) black;
+  margin-left: 0.5rem;
 }
 
 /* IMAGES */
