@@ -138,7 +138,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.explore-together-heading > h2 {
+.explore-together-heading > h3 {
   font-size: var(--text-h1);
   margin-left: 1rem;
 }
@@ -174,7 +174,7 @@ footer * p {
   margin-left: 1.8rem;
 }
 
-.content-card-container h2 {
+.content-card-container h3 {
   border: var(--border) black;
   background: var(--light-green);
   padding: 0.5rem 1rem 0.5rem 1rem;
@@ -578,7 +578,7 @@ footer * p {
     height: 100%;
   }
 
-  .explore-together-heading > h2 {
+  .explore-together-heading > h3 {
     margin-left: 0;
   }
 
@@ -695,5 +695,10 @@ footer * p {
 
   .header-text-secondary {
     color: black;
+  }
+
+  .desktop-nav .desktop-active {
+    background-color: white;
+    color: var(--light-green);
   }
 }
