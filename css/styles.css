@@ -692,4 +692,8 @@ footer * p {
   .grid-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .header-text-secondary {
+    color: black;
+  }
 }
