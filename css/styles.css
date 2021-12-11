@@ -746,4 +746,8 @@ footer * p {
   .footer4 {
     grid-area: footer4;
   }
+
+  .hamburger-wrapper {
+    margin: 0;
+  }
 }
