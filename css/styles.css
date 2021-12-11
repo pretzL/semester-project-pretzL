@@ -389,6 +389,14 @@ footer * p {
   font-size: 1.12rem;
 }
 
+.footer-social-icons {
+  display: flex;
+  margin-top: 1rem;
+  color: white;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
 /* IMAGES */
 
 .header-image {
@@ -678,6 +686,7 @@ footer * p {
   .contact-us-container {
     width: 30%;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   .heading-nav {
@@ -700,5 +709,30 @@ footer * p {
   .desktop-nav .desktop-active {
     background-color: white;
     color: var(--light-green);
+  }
+
+  .footer-container {
+    display: grid;
+    align-items: normal;
+    grid-gap: 1rem;
+    grid-template-areas:
+      "footer1 footer2 footer3"
+      "footer4 footer4 footer4";
+  }
+
+  .footer1 {
+    grid-area: footer1;
+  }
+
+  .footer2 {
+    grid-area: footer2;
+  }
+
+  .footer3 {
+    grid-area: footer3;
+  }
+
+  .footer4 {
+    grid-area: footer4;
   }
 }
