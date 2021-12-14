@@ -431,7 +431,7 @@ footer * p {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30%;
+  height: 200px;
   align-items: flex-end;
   color: #fff;
 }
@@ -441,11 +441,15 @@ footer * p {
 }
 
 .exhibition-content-image {
-  width: 84%;
+  width: 100%;
 }
 
 .explore-together-image {
   display: none;
+}
+
+.dropdown-image {
+  width: 100%;
 }
 
 /* HIDDEN TEXT FOR ACCESSIBILITY */
@@ -469,29 +473,38 @@ footer * p {
     display: flex;
   }
 
-  .hours-label:hover,
-  .visit-label:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  .header-position-large {
+    display: flex;
+    flex-direction: column;
   }
 
-  .hamburger-label,
-  .nav-overlay {
+  .header-position-large p,
+  .header-position-large h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header1 {
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .header-position-small {
     display: none;
   }
 
   .header-image {
-    height: 500px;
-  }
-
-  .fa-bars {
-    display: none;
+    height: 300px;
   }
 }
 
 /* DESKTOP */
 
 @media only screen and (min-width: 1280px) {
+  .opening-hours {
+    display: flex;
+  }
+
   .header-position-large {
     display: flex;
     flex-direction: column;
@@ -585,16 +598,13 @@ footer * p {
   .explore-together-heading {
     background: none;
     color: black;
+    height: 100%;
   }
 
   .explore-together-wrapper {
     display: flex;
     width: 80%;
     align-self: center;
-  }
-
-  .explore-together-heading {
-    height: 100%;
   }
 
   .explore-together-heading > h3 {
