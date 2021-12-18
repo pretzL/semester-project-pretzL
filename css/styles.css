@@ -503,6 +503,10 @@ footer * p {
   .header-image {
     height: 300px;
   }
+
+  .page-icon-medium {
+    width: 10%;
+  }
 }
 
 /* DESKTOP */
