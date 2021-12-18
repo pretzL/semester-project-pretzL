@@ -418,7 +418,7 @@ footer * p {
 /* IMAGES */
 
 .header-image {
-  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../images/billetto-editorial-334686.jpg");
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("../images/billetto-editorial-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -575,6 +575,10 @@ footer * p {
   .quick-nav-bar {
     font-size: 1.8rem;
     height: 70px;
+  }
+
+  .quick-nav-bar label:hover {
+    text-decoration: underline;
   }
 
   .icon-navigation-container {
