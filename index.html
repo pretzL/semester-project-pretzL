@@ -4,13 +4,171 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="Community Science Museum, CSM, Science, Museum, CSS, HTML, Noroff" />
-    <meta name="description" content="" />
-    <title>CSM | Home</title>
+    <meta name="description" content="Welcome to the Community Science Museum. View our Exhibitions, book a tour, or learn more about science!" />
+    <title>Home | Community Science Museum</title>
     <link href="/css/styles.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Tourney:ital,wght@1,700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="content-wrapper">
+      <div class="content-container">
+        <header class="flex-column header-image">
+          <div class="flex header1">
+            <div>
+              <a href="index.html"><img src="images/open-science-white.png" alt="Community Science Museum Logo" class="header-logo" /></a>
+            </div>
+            <div class="header-text header-position-large">
+              <p class="opening-hours" id="opening-hours">Opening Hours today:</p>
+              <h1>Community Science Museum</h1>
+            </div>
+            <div class="hamburger-wrapper">
+              <input type="checkbox" id="hamburger-menu" />
+              <label class="hamburger-label" for="hamburger-menu"><i class="fa fa-bars"></i></label>
+              <div class="nav-overlay">
+                <ul>
+                  <a href="index.html" class="active"><li>Home</li></a>
+                  <a href="exhibitions.html"><li>Exhibitions</li></a>
+                  <a href="special-events.html"><li>Special Events</li></a>
+                  <a href="explore.html"><li>Explore</li></a>
+                  <a href="get-involved.html"><li>Get Involved</li></a>
+                  <a href="visit.html"><li>Visit</li></a>
+                  <a href="get-involved.html#contact-us"><li>Contact us</li></a>
+                </ul>
+              </div>
+            </div>
+            <div class="desktop-nav">
+              <ul>
+                <a href="index.html" class="desktop-active"><li>Home</li></a>
+                <a href="exhibitions.html"><li>Exhibitions</li></a>
+                <a href="special-events.html"><li>Special Events</li></a>
+                <a href="explore.html"><li>Explore</li></a>
+                <a href="get-involved.html"><li>Get Involved</li></a>
+                <a href="visit.html"><li>Visit</li></a>
+                <a href="get-involved.html#contact-us"><li>Contact us</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="header-text header-position-small">
+            <h1>Community Science Museum</h1>
+          </div>
+        </header>
+        <main>
+          <section class="quick-nav-bar">
+            <h3 class="visually-hidden">Main content, quick navigation bar with opening hours and visit dropdown menus, and category menu.</h3>
+            <div>
+              <input type="checkbox" id="hours-dropdown" />
+              <label class="hours-label" for="hours-dropdown">Visit</label>
+              <div class="hours-overlay">
+                <div>
+                  <img src="images/googlemaps.jpg" alt="Google Maps Location of Museum Image" class="dropdown-image" />
+                </div>
+                <div>
+                  <p>
+                    The museum is conveniently located in the heart of Stavanger. You can take any bus going to Stavanger Sentrum from anywhere, and walk to the museum. Bus X31
+                    also stops right outside of the museum.
+                  </p>
+                </div>
+                <div class="info-button"><a href="visit.html">More Info</a></div>
+              </div>
+            </div>
+            <div>
+              <input type="checkbox" id="visit-dropdown" />
+              <label class="visit-label" for="visit-dropdown">Opening Hours</label>
+              <div class="visit-overlay">
+                <div>
+                  <img src="images/exhibition-1863344_1920.jpg" alt="Image of the inside of the museum" class="dropdown-image" />
+                </div>
+                <div>
+                  <p>Monday: Closed</p>
+                  <p>Tuesday: 10:00 - 16:00</p>
+                  <p>Wednesday: 10:00 - 16:00</p>
+                  <p>Thursday: 10:00 - 16:00</p>
+                  <p>Friday: 10:00 - 19:00</p>
+                  <p>Saturday: 09:00 - 16:00</p>
+                  <p>Sunday: 09:00 - 13:00</p>
+                </div>
+                <div class="info-button"><a href="visit.html">More Info</a></div>
+              </div>
+            </div>
+          </section>
+          <section class="icon-navigation-wrapper">
+            <div class="icon-navigation-container">
+              <a href="exhibitions.html"><img src="images/exhibition.png" alt="Exhibition Icon" class="nav-icon-small" /></a>
+              <a href="exhibitions.html">Exhibitions</a>
+            </div>
+            <div class="icon-navigation-container">
+              <a href="special-events.html"><img src="images/video-game.png" alt="Special Events Icon" class="nav-icon-small" /></a>
+              <a href="special-events.html">Special Events</a>
+            </div>
+            <div class="icon-navigation-container">
+              <a href="explore.html"><img src="images/explore.png" alt="Explore Icon" class="nav-icon-small" /></a>
+              <a href="explore.html">Explore</a>
+            </div>
+            <div class="icon-navigation-container">
+              <a href="get-involved.html"><img src="images/contact-us.png" alt="Get Involved Icon" class="nav-icon-small" /></a>
+              <a href="get-involved.html">Get Involved</a>
+            </div>
+          </section>
+          <section class="explore-together-wrapper">
+            <h3 class="visually-hidden">Explore Together. General information about the museum and what we offer.</h3>
+            <div class="explore-together-content">
+              <div class="explore-together-heading">
+                <h3>Explore Together</h3>
+              </div>
+              <div class="explore-together-text-content">
+                <p class="explore-together-sub-heading">Come join us at the Community Science Museum where we're committed to making science accessible to all.</p>
+                <p>
+                  Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far
+                  away to the very building blocks of life itself.
+                </p>
+                <p>
+                  The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the
+                  exploration of the world around us.
+                </p>
+                <p>
+                  We believe science should not be confined to the textbook, but brought to life through exhibits. This is why we have over 1000 different exhibits on the many
+                  varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the
+                  dinosaur exhibits - they only come to life at night when everyone's gone home).
+                </p>
+              </div>
+            </div>
+            <div><img src="/images/scientific-2040795_1280.jpg" alt="Female scientist working on a space module" class="explore-together-image" /></div>
+          </section>
+        </main>
+        <footer class="flex-column footer-container">
+          <div class="footer-social-icons footer1">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="flex-column museum-quick-links footer2">
+            <h3>Museum</h3>
+            <a href="index.html">Home</a>
+            <a href="exhibitions.html">Exhibitions</a>
+            <a href="visit.html">Visit Us</a>
+            <a href="explore.html">Explore</a>
+            <a href="special-events.html">Special Events</a>
+          </div>
+          <div class="flex-column contact-quick-links footer3">
+            <h3>Contact</h3>
+            <a href="get-involved.html">Get Involved</a>
+            <a href="get-involved.html#contact-us">Contact Us</a>
+          </div>
+          <div class="copyright-info footer4">
+            <p>&copy; 2021 Eric Pretzinger | Community Science Museum</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
