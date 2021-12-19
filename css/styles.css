@@ -422,6 +422,7 @@ footer * p {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  background-position: center;
 }
 
 .header-logo {
