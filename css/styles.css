@@ -435,7 +435,7 @@ footer * p {
 
 .explore-together-heading {
   display: flex;
-  background: url("../images/scientific-2040795_1280.jpg");
+  background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("../images/scientific-2040795_1280.jpg");
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
