@@ -60,7 +60,7 @@ If you would like to contact me, feel free to do so via the following methods:
 
 Email: ericpretzinger@gmail.com
 
-Discord: pretzL#0001
+Discord: `pretzL#0001`
 
 ## License
 
