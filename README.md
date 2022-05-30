@@ -1,11 +1,3 @@
-# semester-project-pretzL
-
-My Noroff semester project
-
-Netlify main: https://csm-pretzl.netlify.app/
-
-Netlify dev: https://csm-pretzl-dev.netlify.app/
-
 # Community Science Museum
 
 ![csmpic](https://user-images.githubusercontent.com/30121693/171003061-90d66fc5-6fae-4925-8bff-170cdea8f9a0.png)
