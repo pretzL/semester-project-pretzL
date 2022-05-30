@@ -8,7 +8,7 @@ Netlify dev: https://csm-pretzl-dev.netlify.app/
 
 # Community Science Museum
 
-![foodforthoughtpic](https://user-images.githubusercontent.com/30121693/170965919-3ca59fae-08e5-4449-b2bd-94d8cfb5b5db.png)
+![csmpic](https://user-images.githubusercontent.com/30121693/171003061-90d66fc5-6fae-4925-8bff-170cdea8f9a0.png)
 
 [Community Science Museum](https://csm-pretzl.netlify.app/) is a museum homepage I created for my Semester Project 1 at Noroff.
 
